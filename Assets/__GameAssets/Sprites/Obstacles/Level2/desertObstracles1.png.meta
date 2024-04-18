@@ -1,0 +1,306 @@
+fileFormatVersion: 2
+guid: 79dc715da6c36e3429906e59397d4ed1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: desertObstracles1_2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 333
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb6ef4bad8741e43b59772a2d917117
+      internalID: -567824305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desertObstracles1_3
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 333
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7638ed97c7dd8a440a14fe23ef14d9da
+      internalID: -9452415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desertObstracles1_27
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 211
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa55d96687864d7409398934ae1447de
+      internalID: -964450448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desertObstracles1_42
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 138
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a102421d52b752409c769a07c102868
+      internalID: -2021476982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desertObstracles1_0
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 89
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7966697f11c2dff4eb6fcf6bed7759fb
+      internalID: -1097272574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      desertObstracles1_53: -817411584
+      desertObstracles1_0: -1097272574
+      desertObstracles1_32: -1041792896
+      desertObstracles1_57: 355764439
+      desertObstracles1_34: 2130821266
+      desertObstracles1_65: -1277121922
+      desertObstracles1_61: -1749274683
+      desertObstracles1_19: 520097932
+      desertObstracles1_5: -1265689557
+      desertObstracles1_63: -180565631
+      desertObstracles1_50: 1383479289
+      desertObstracles1_6: 1086760407
+      desertObstracles1_3: -9452415
+      desertObstracles1_18: -1065438469
+      desertObstracles1_43: 332783118
+      desertObstracles1_54: -1561172066
+      desertObstracles1_31: -315934236
+      desertObstracles1_15: -295481979
+      desertObstracles1_52: -376565806
+      desertObstracles1_62: 902296148
+      desertObstracles1_30: -1783271407
+      desertObstracles1_27: -964450448
+      desertObstracles1_8: 1321603944
+      desertObstracles1_1: 2032129641
+      desertObstracles1_17: 1438630411
+      desertObstracles1_26: 1897938419
+      desertObstracles1_7: 1364051234
+      desertObstracles1_49: 407520501
+      desertObstracles1_9: -383803701
+      desertObstracles1_20: -1455445979
+      desertObstracles1_13: -1005700243
+      desertObstracles1_59: 993650217
+      desertObstracles1_44: 1852094077
+      desertObstracles1_10: -722387462
+      desertObstracles1_56: 2125990046
+      desertObstracles1_51: 923338271
+      desertObstracles1_28: -1362450816
+      desertObstracles1_48: -751687660
+      desertObstracles1_35: -160200108
+      desertObstracles1_21: 1927950667
+      desertObstracles1_33: 367328684
+      desertObstracles1_12: -298252216
+      desertObstracles1_40: 854293158
+      desertObstracles1_38: 1191537606
+      desertObstracles1_23: 1411459142
+      desertObstracles1_36: -795828765
+      desertObstracles1_39: 724374022
+      desertObstracles1_41: 580456058
+      desertObstracles1_45: -1537129786
+      desertObstracles1_24: 28150632
+      desertObstracles1_47: -1259408492
+      desertObstracles1_55: 645688440
+      desertObstracles1_22: 648685803
+      desertObstracles1_37: 1010067814
+      desertObstracles1_58: -1477564444
+      desertObstracles1_2: -567824305
+      desertObstracles1_29: 631828445
+      desertObstracles1_60: 2144970453
+      desertObstracles1_16: 184180698
+      desertObstracles1_25: -163036036
+      desertObstracles1_64: -1671955387
+      desertObstracles1_42: -2021476982
+      desertObstracles1_4: -1398457571
+      desertObstracles1_46: -1967520018
+      desertObstracles1_11: -2134101116
+      desertObstracles1_14: 927025833
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

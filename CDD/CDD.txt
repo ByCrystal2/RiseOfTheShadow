@@ -1,0 +1,64 @@
+Oyun ismi: Rise Of The Shadow
+
+
+0-) Konsept ve Tema:
+
+	* Oyunun temel konsepti ve teması nedir?
+	-"Rising Of The Shadow" At gelişimi tabanlı bu oyunda, oyunculara benzersiz ve heyecan verici bir at macerasına davet eden 2D Platform 	 	oyunudur.
+	-Oyuncular, ana karakter olan atımızı geliştirerek level tabanlı ilerleme kaydederek maximum güce ulaşıp bu zorlu yolda kurtuluşa erecek.
+
+					-Hikaye veya oyun dünyası ne hakkında?-
+
+1-) Oyun Dünyası:
+
+	-"Atların Gölgesi", kindar bir krallığın huzur içinde yaşadığı ancak karanlık güçlerin tehdidi altında olan bir dünyada geçmektedir. 	Krallığın sakinleri modern silah gücüne sahip ve inanılmaz savaşçıdır. Bu dünyada, atlar oyuncuları ile birlikte bu gizemli diyarı 	keşfederler.
+
+2-) Oyuncuların ne tür bir deneyim yaşayacağına dair genel açıklama:
+
+	-Oyun, hızla koşma, atlamalar yapma ve engelleri aşma mekanikleri üzerine odaklanır. Oyunun ilerleyen aşamalarında, oyuncular güçlü 	düşmanları alt etmek için ekipmanları kullanırlar. Hikaye boyunca oyuncular, krallığın güzelliklerini ve tehlikelerini keşfeder.
+
+3-) Oynanış Mekaniği:
+
+    * Oyuncular oyun içinde ne yapacak?:
+	- Oyuncular, ana karakterimiz olan atımızı yönetecek ve engelleri aşarak, düşmanları altedip çıkışa doğru ulaşmaya çalışacak.
+
+    * Oynanışın temel mekaniği ve özellikleri nelerdir?:
+	- Karakterimiz olan at, belirli bir input olmadan ileri doğru hareket edecek. 'Space' tuşu ile karakterimiz zıplayacak. 'Mouse'un Sol Tıkı' 	ile karakterimizin baş kısmında bulunan boynuz, yine Cursor'umuzu hareket ettirdiğimiz noktayı takip ederek ateş edecek.
+
+-Karakterler ve Dünya:
+
+    * Oyunda bulunan karakterlerin tanımlaması ve özellikleri:
+	- Gölge atı: Biz (Gölge temalı bir at tasarımı - Baş kısmında bulunan Boynuz)
+	- Düşmanlar: Silahlı insanlar (Karakterimize belirli bir mesafede saldıran silahlı insanlar.)
+		-Level 1 => Silahlı Çiftçi Düşmanları
+		-Level 2 => Egzotik Çöl Düşmanları
+		-Level 3 => İskelet Mezarlık Düşmanları
+		-Level 4 => Kardan Adam Kış Düşmanları
+		-Level 5 => Gelişmiş Silahlılar Modern Düşmanlar
+
+    * Oyun dünyasının yapısı, bölgeleri, önemli yerleri:
+	- Oyunumuz toplamda 5 levelden oluşmaktadır. Her levelde düşmanlarımız ve map değişmektedir. Bu süreçte Karakterimiz hiç durmaksızın 	ilerleyecek.
+4-) Ses ve Müzik:
+
+    * Oyunun atmosferini desteklemek için kullanılacak ses efektleri ve müzikler:
+	- Her levelin kendisine ait arkaplanda çalışan bir müzik olacaktır.
+	- Karakter koşma,hasar alma, zıplama sesleri olacaktır.
+
+5-) İlerleme ve Zorluk:
+
+    * Oyunun ilerleyen aşamalarında ne gibi zorluklar ve ödüller olacak?:
+	- İlk seviyelerde oyuncular, temel sürüş ve atlama becerilerini öğrenirken çeşitli engelleri aşmalıdır. Engeller zamanla daha karmaşık ve 	zorlu hale gelir.
+	- Seviye ilerledikçe düşmanlar gelecek, engel ve düşman zorlukları gittikçe artacaktır.
+	- Düşman katlettikçe altın kazanacak ve bu altınlarla bölüm sonunda değerli eşyalar alınabilecektir.	
+
+    * Oyuncuların ilerlemesi nasıl kaydedilecek ve belirlenecek?:
+	- Oyuncuların ilerlemesi Player Database ile kontrol edilecek.
+	- Item kaydı ise Item Database sistemi ile kontrol edilecek.
+	- Oyun genel save sistemi => Json GameSave Sistemi.
+
+6-) Hedef Kitlesi:
+
+   * Hangi yaş grubu ve oyuncu profili hedefleniyor?
+	- +13 yaş sınırı ve bağımlılık dışı eğlence amaçlarını hedefliyor.  
+
+

@@ -1,0 +1,53 @@
+Atımız otomatik bir şekilde ilerlemekte. Player sadece "Space" ve "Fire1" (Mouse Sol Tık) 
+tuşları ile oynamaktadır. Amaç, leveli geçmek ve bu yolda karşımıza çıkacak rakipleri ve engelleri aşmak.
+
+Oyunun yapımında asset sorunu çok yaşadım maalesef. Özellikle 2D oyun yapımında zayıf olmam
+ve sprite konusunda yaşadığım problemlerden dolayı koda çok vakit ayıramadım açıkçası.
+Oyun içerisinde görsel eksiklikleri farkedeceksinizdir 2D animasyonuna kadar tektek uğraştım maalesef.
+Şöyle ki eklemek istediğim kodları bile ekleyemedim vakit kalmadığından. Şöyle paylaşayım kodları:
+
+	public void GetDamage()
+   	 {
+        	StopCoroutine(GetDamageEffect()); 
+        	ResetColourState(); //Rengi de baslangictaki gibi beyaza geri alalim.
+       	        StartCoroutine(GetDamageEffect());
+   	 }
+
+        public void ResetColourState()
+  	  {
+       		 PlayerSprite.color = Color.white;
+   	  }
+
+IEnumerator GetDamageEffect()
+    {
+        int SignalCount = 3; //3 kere kirmizi beyaz renk arasinda yanip sonecek.
+        for (int i = 0; i < SignalCount; i++)
+        {
+            //Rengimiz beyazdan kirmiziya gecene kadar while icinde rengi yavasca yukselticez.
+            float currentTimer = 0; //Sayacimiz
+            float TargetTimer = 0.4f; //kac saniye surecek beyazdan kirmiziya yarisi kadar, kirmizidan beyaza yarisi kadar.
+            while (currentTimer < TargetTimer)
+            {
+                currentTimer += Time.deltaTime;
+                float t = Mathf.Clamp01(currentTimer / TargetTimer);
+                Color lerpedColor;
+                if (currentTimer < TargetTimer / 2)
+                    lerpedColor = Color.Lerp(Color.white, Color.red, t);
+                else
+                    lerpedColor = Color.Lerp(Color.red, Color.white, t);
+                PlayerSprite.color = lerpedColor;
+                yield return new WaitForEndOfFrame();
+            }
+        }
+
+        Debug.Log("Player colour changes finished...");
+    }
+
+Neden şu an eklemiyorsun bu kodu diyebilirsiniz fakat vakit kalmadı dediğim gibi. Saat 00 olmasına bir kaç saat kaldı.
+
+Fakat oyun yapımında çok eğlendim ve inşAllah sizde en az benim kadar eğlenirsiniz.
+
+Teşekkür eder, hayırlı günler dilerim.
+
+Saygılarımla...
+
